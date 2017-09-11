@@ -17,14 +17,24 @@ class JeepneyTrip {
     this.discountPassengers = discountPassengers;
   }
   
-    /*... totalPassengers
-      ... payment
-      ... discountPassengers
-      ... BASE_KM
-      ... distance
-      ... EXCESS_FARE
-      ... DISCOUNT_FARE
-      ... BASE_FARE*/
+    /*Template
+      Fields:
+      ... this.totalPassengers ...               -- int
+      ... payment ...                            -- double
+      ... this.discountPassengers ...            -- int
+      ... BASE_KM ...                            -- int
+      ... this.distance ...                      -- double
+      ... EXCESS_FARE ...                        -- double
+      ... DISCOUNT_FARE ...                      -- int
+      ... BASE_FARE ...                          -- int
+      
+      Methods:
+      ... fareChange() ...                       -- double
+      ... totalFare() ...                        -- double
+      ... computeFareDiscount ...                -- double
+      ... computeFare() ...                      -- double
+      ... excessDistance() ...                   -- double 
+    */
   
   // -> double
   // Returns the additional kilometers if it reaches a certain base distance.
