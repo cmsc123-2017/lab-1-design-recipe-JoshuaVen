@@ -14,6 +14,18 @@ class Item {
     return totalPrice * (1 - this.salePercentage);
   }
   
+  /* TEMPLATE
+     Fields:
+     ... this.salePercentage ...       -- double
+     ... totalPrice ...                -- double
+     ... PRICE_LIMIT ...               -- int
+     
+     Methods:
+     ... price ...                     -- double
+     ... priceSale ...                 -- double
+   */
+  
+  
   // -> double
   // Returns the price of the total price if it reaches 1000 worth of sales.
   double price(int totalPrice) {
