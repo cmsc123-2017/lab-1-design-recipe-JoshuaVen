@@ -16,13 +16,13 @@ class Item {
   
   /* TEMPLATE
      Fields:
-     ... this.salePercentage ...       -- double
-     ... totalPrice ...                -- double
-     ... PRICE_LIMIT ...               -- int
+     ... this.salePercentage ...          -- double
+     ... totalPrice ...                   -- double
+     ... PRICE_LIMIT ...                  -- int
      
      Methods:
-     ... price ...                     -- double
-     ... priceSale ...                 -- double
+     ... price() ...                      -- double
+     ... priceSale() ...                  -- double
    */
   
   
